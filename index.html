@@ -8,9 +8,10 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'G-3MZVQD2DC4');
     </script>
+
+    <script src="include.js"></script>
 
     <style>
       #gdprInfo{
@@ -53,61 +54,7 @@
       <svg class="bi me-2" width="32" height="32"><use xlink:href="#asteriks"/></svg>
       <span class="fs-4">Open Information Technologies</span>
     </a>
-
-    <nav class="navbar" aria-label="Light offcanvas navbar">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarLight" aria-controls="offcanvasNavbarLight" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbarLight" aria-labelledby="offcanvasNavbarLightLabel">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasNavbarLightLabel">Open Information Technologies</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about">About</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Services
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Consultancy</a></li>
-                <li><a class="dropdown-item" href="#">Training</a></li>
-                <li><a class="dropdown-item" href="#">Open Resourcing</a></li>
-                <li><a class="dropdown-item" href="#">Proof of Consept</a></li>
-                <li><a class="dropdown-item" href="#">Project Development</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="#">Instant HELP!</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Privacy Policy</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact">Contact</a>
-            </li>
-          </ul>
-          <hr>
-          <ul class="nav col-md-4 justify-content-center list-unstyled d-flex">
-            <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
-            <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
-            <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
-          </ul>
-          <script async src="https://cse.google.com/cse.js?cx=665035b2b920944df"></script>
-          <div class="gcse-search"></div>
-        </div>
-      </div>
-    </div>
-  </nav>
-
+        <div w3-include-html="navigation.html"></div>
   </header>
 
   <main>
@@ -127,6 +74,7 @@
   </footer>
 </div>
 
+  <script>includeHTML()</script>
   <script src="gdpr.js"></script>
 
  <!-- Bootstrap Main JS File -->
