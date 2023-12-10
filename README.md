@@ -1,2 +1,2 @@
 # tr.info.open
-open.info.tr web site
+open.info.tr website
